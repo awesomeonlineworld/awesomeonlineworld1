@@ -1,1 +1,33 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customize URL Example</title>
+  <script>
+    function customizeURL() {
+      var customPath = document.getElementById('customPathInput').value;
+      var customQuery = document.getElementById('customQueryInput').value;
+
+      // Modify the URL using history.replaceState()
+      var newURL = window.location.origin + '/' + customPath + '?' + customQuery;
+      window.history.replaceState(null, null, newURL);
+
+      // Display the modified URL
+      document.getElementById('modifiedURLOutput').textContent = newURL;
+    }
+  </script>
+</head>
+<body>
+  <h1>Customize URL Example</h1>
+  <div>
+    <label for="customPathInput">Custom Path:</label>
+    <input type="text" id="customPathInput" placeholder="Enter custom path">
+  </div>
+  <div>
+    <label for="customQueryInput">Custom Query:</label>
+    <input type="text" id="customQueryInput" placeholder="Enter custom query">
+  </div>
+  <button onclick="customizeURL()">Customize URL</button>
+  <p id="modifiedURLOutput"></p>
+</body>
+</html>
