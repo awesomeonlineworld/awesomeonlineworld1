@@ -1,64 +1,303 @@
-<!--
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Customize URL Example</title>
-  <script>
-    function customizeURL() {
-      var customPath = document.getElementById('customPathInput').value;
-      var customQuery = document.getElementById('customQueryInput').value;
-
-      // Modify the URL using history.replaceState()
-      var newURL = window.location.origin + '/' + customPath + '?' + customQuery;
-      window.history.replaceState(null, null, newURL);
-
-      // Display the modified URL
-      document.getElementById('modifiedURLOutput').textContent = newURL;
-    }
-  </script>
-</head>
-<body>
-  <h1>Customize URL Example</h1>
-  <div>
-    <label for="customPathInput">Custom Path:</label>
-    <input type="text" id="customPathInput" placeholder="Enter custom path">
-  </div>
-  <div>
-    <label for="customQueryInput">Custom Query:</label>
-    <input type="text" id="customQueryInput" placeholder="Enter custom query">
-  </div>
-  <button onclick="customizeURL()">Customize URL</button>
-  <p id="modifiedURLOutput"></p>
-</body>
-</html>
--->
-
 <!doctype html>
 <html>
     <head>
         <title>Awesome online world </title>
         <meta charSet="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="preconnect" href="https://fonts.msha.ke"/>
+        <meta name="author" content="Mr.x"/>
+
+	<style>
+            body {
+                background-color:rgb(255,99,71);
+            }
+            loading {
+                width: 20%;
+            }
+            #responsive-flamingo {  width: 30%;  height: auto; } 
+        </style>
+     </head> 
+      
+     <body>
+         <img src="https://images.msha.ke/7ebb75e9-baee-4c97-8ee5-276b35f7f2cf?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Cup Holder for Couch，Sofa Armrest Tray，Portable Couch Drink Holder arm Table，Couch Accessories Suitable for Recliner Table (Griege)"/>
+         <p> Cup Holder for Couch，Sofa Armrest Tray，Portable Couch Drink Holder arm Table，Couch Accessories Suitable for Recliner Table (Griege)"</p>
+         <img src="https://images.msha.ke/1660bb4f-8918-42a2-b631-90f0d32fb40b?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Electric Candle Warmer, Candle Warmer Lamp with Timer and Dimmable Candle Light, Plug in Candle Wax Warmer for Large &amp; Small Jar Candles, Aromatic Candle Holders for Home Decoration"/>
+         <p> Electric Candle Warmer, Candle Warmer Lamp with Timer and Dimmable Candle Light, Plug in Candle Wax Warmer for Large &amp; Small Jar Candles, Aromatic Candle Holders for Home Decoration" </p>
+        <img src="https://images.msha.ke/01122225-a594-4f00-a228-9ceac9bdf83f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="JOTO Universal Waterproof Phone Pouch"/>
+	<img src="https://images.msha.ke/06a828a7-3b19-4892-8014-f410fd3a3d36?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Digital Alarm Clock,LED and Mirror Desk Clock Large Display,with Dual USB Charger Ports,
+	<img src="https://images.msha.ke/0dd1821e-f3fb-4f98-b995-ec1b78839a8a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Pet Water Bottle for Dogs. Lightweight &amp; Convenient for Travel Outdoor Walking, Hiking"/>
+	<img src="https://images.msha.ke/1347e69e-3397-4b92-b26b-4fbeda24c5e0?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="DODODUM Mini Heat Press Machine Easy to Use for T Shirts Shoes Hats Small HTV Iron-on Vinyl Projects Portable Heating Transfer Iron Green"/>
+	<img src="https://images.msha.ke/1660bb4f-8918-42a2-b631-90f0d32fb40b?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Electric Candle Warmer, Candle Warmer Lamp with Timer and Dimmable Candle Light, Plug in Candle Wax Warmer for Large &amp; Small Jar Candles, Aromatic Candle Holders for Home Decoration"/>
+	<img src="https://images.msha.ke/21874a51-b442-42aa-8535-869656e677dd?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Neporal Emergency-Rechargeable-Light-Bulb, Stay Lights Up When Power Failure"/>
+	<img src="https://images.msha.ke/2212a9d4-8796-4943-a5cd-6e92c59d7827?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="SAUNORCH Universal International Travel Power Adapter "/>
+	<img src="https://images.msha.ke/2e026000-804d-4258-98d8-6db57756cfd5?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Self Defense Safesound Personal Alarm Keychain"/>
+	<img src="https://images.msha.ke/2f08f816-9b84-4b98-b204-923c35cd751a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="MalsiPree Dog Water Bottle"/>
+	<img src="https://images.msha.ke/3831bc7a-383e-45d4-8cdf-b09cae7857dc?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Value Plus: Home - Touch Screen Mist Cleaner with Built In Microfiber - For All Phones, Tablets, Car Screens, Computers, Monitors"/>
+	<img src="https://images.msha.ke/39e47fe1-2497-483c-b2ff-3adc5b9738a1?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Travel Makeup Case,Chomeiu- Professional Cosmetic Makeup Bag Organizer,Accessories Case,"/>
+	<img src="https://images.msha.ke/426eeadb-3cd6-4109-8522-512c4fa87639?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Fingerprint Padlock, Bluetooth Lock, Mobile APP, MEGAFEIS Smart Padlock with Keyless Biometric, Water Resistant, Suitable for Gym, Sports, Bike, School, Locker and Storage"/>
+	<img src="https://images.msha.ke/49687e7d-9c31-4606-a633-eb00154ec391?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Nespresso Gran Lattissima Espresso Machine by De&#x27;Longhi, White"/>
+  <img src="https://images.msha.ke/c9c21d54-507d-4d88-989f-a04fb7e3691c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<--
+<img src="https://images.msha.ke/499e2535-f3aa-4525-8a50-35014a71cda6?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="The Clean Ball - Keep your Bags Clean - Sticky Inside Ball Picks up Dust, Dirt and Crumbs in your Purse, Bag, Or Backpacks"/>
+<img src="https://images.msha.ke/4bcc286e-1cfd-4bc2-a6cc-774745c3eca1?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Travel Duffel Bag,Sports Tote Gym Bag,Shoulder Weekender Overnight Bag for Women"/>
+<img src="https://images.msha.ke/5537b526-54b9-4f6b-8797-30a81e72fdb2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Portable Car Vacuum Cleaner
+<img src="https://images.msha.ke/56348368-db13-433e-aec0-9f8214b3b578?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Zadro Ultra Large Luxury Bucket-Style Towel Warmer with Auto Shut Off and 4 Timer Settings for Bathroom"/>
+<img src="https://images.msha.ke/5c2998f4-6e0d-4902-b6a5-9e8ed0dce060?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Marble Ceramic Jewelry Tray "/>
+<img src="https://images.msha.ke/5e24e3e4-6a65-410f-92a0-afd9363a955e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="deweisn Tri-Fold Lighted Vanity Mirror"/>
+<img src="https://images.msha.ke/6551e409-55f9-4116-bfa0-71f4ac0fb3ac?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="INIU Portable Charger, USB C Slimmest Triple 3A High-Speed 10000mAh Phone Power Bank"/>
+<img src="https://images.msha.ke/71499bc6-02fa-4afd-9522-0ec783815661?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Hatch Baby Rest Sound Machine, Night Light and Time-to-Rise"/>
+<img src="https://images.msha.ke/72ec6c45-11b6-4908-9d3b-225fffa189cc?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Blackhead Remover Pore Vacuum - LED Screen &amp; USB Rechargeable Facial Pore Cleanser "/>
+<img src="https://images.msha.ke/7ebb75e9-baee-4c97-8ee5-276b35f7f2cf?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Cup Holder for Couch，Sofa Armrest Tray，Portable Couch Drink Holder arm Table，Couch Accessories Suitable for Recliner Table (Griege)"/>
+<img src="https://images.msha.ke/81211c7c-9ac6-4520-9e10-7379c910b3b1?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Identity Theft Protection Roller Stamps Wide Kit, Including 6-Pack Refills "/>
+<img src="https://images.msha.ke/88a6bd0b-89cc-4c15-88dd-3669bdc99e98?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Lecone Fast Wireless Charger"/>
+<img src="https://images.msha.ke/8a872f5e-fd82-4f91-aac9-9df19e7bb000?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="BESTOOL Hair Scalp Massager"/>
+<img src="https://images.msha.ke/8cd59dbb-98f9-459e-9906-f46a1f080f2d?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Mini Handheld Steamer for Clothes Garment, Portable Travel Garment Steamer"/>
+<img src="https://images.msha.ke/8d56c758-2e51-4dc4-a2f1-05af9b8ae5ae?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="12’’ Screen Magnifier for Smartphone"/>
+<img src="https://images.msha.ke/993104b6-6d60-4554-9cd2-fe6a46a82099?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="LA JOLIE MUSE Fluted Cardboard Storage Basket with Leather Lids"/>
+<img src="https://images.msha.ke/9a77ee6b-febd-45ed-b18e-21fbd498491e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="PETLIBRO Automatic Cat Feeder, Timed Cat Feeder with Desiccant Bag for Pet Dry Food, Programmable Portion Control 1-4 Meals per Day &amp; 10s Voice Recorder for Cats and Dogs"/>
+<img src="https://images.msha.ke/a1786746-f7ac-4846-a444-2ecc18575e2f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Floppy Dawg Just Chillin&#x27; Elevated Dog Bed"/>
+<img src="https://images.msha.ke/a2ad0bf2-2916-497e-8e7c-a0841f951bd4?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Honeywell HT-900 TurboForce Air Circulator Fan Black, Small"/>
+<img src="https://images.msha.ke/ab463cc5-33ac-4c90-b7c6-96109b55d548?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Oclean X Pro Electric Toothbrush"/>
+<img src="https://images.msha.ke/ad8edb09-ee16-4df0-bc4b-b15c72aee031?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Fintie Plush Lined Eyeglasses Holder with Magnetic Base- Premium Vegan Leather Glasses Stand Case"/>
+<img src="https://images.msha.ke/ade4d5a4-ebef-4bd1-8e41-81d5565a1cac?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="4moms mamaRoo 4 Multi-Motion Baby Swing, Bluetooth Baby Rocker with 5 Unique Motions, Nylon Fabric,"/>
+<img src="https://images.msha.ke/ae41e7dd-9012-46a6-946d-06d25b973fb2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="GAIATOP Space Heater, Energy Efficient Small Space Heater for Bedroom"/>
+<img src="https://images.msha.ke/b5410efa-1fb1-490c-a59d-0d73528f4b7b?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="EZVALO Alarm Clock with Wireless Charger,Multifunctional Digital Clock Radio with Speaker"/>
+<img src="https://images.msha.ke/b5e1f411-7840-4c24-aad3-298265044e0c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Rhife Pill Hive - Weekly Pill Organizer"/>
+<img src="https://images.msha.ke/bf85ecd9-6a3f-459b-ab3c-e9308f893088?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Desk Organizer with Charging Station for Office Home"/>
+<img src="https://images.msha.ke/c26eb04c-028d-4ffa-b8d0-7b8ce2590025?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="New and Improved Baby Brezza Formula Pro Advanced Formula Dispenser Machine"/>
+<img src="https://images.msha.ke/c3d06024-ec41-413e-a5b3-a32a2ef59d80?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Naipo Massage Table, oCuddle Neck and Back Massager with Adjustable Strap and Heat, Electric Shiatsu Shoulder Massagers with Deep Tissue Kneading Massage"/>
+<img src="https://images.msha.ke/c8d12c23-82ea-43ed-92d4-f1bb756f7ef2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Benols Beauty (TM) 14pcs Makeup Brush Set"/>
+<img src="https://images.msha.ke/ced933f9-cdae-45b9-afe9-c605f290c47b?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Scanmarker Air Pen Scanner
+<img src="https://images.msha.ke/d622ff00-1c6d-4146-8415-c1173f507427?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="NUFR Wallet Finder, Item Locator and Finder for Wallets, Passports and Suitcase and More; Waterproof with Built-in 24-30 Months Battery"/>
+<img src="https://images.msha.ke/d8099d7f-e0a8-4b77-8216-462ec3ace270?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="THISWORX Car Vacuum Cleaner - Portable, High Power, Mini Handheld Vacuum "/>
+<img src="https://images.msha.ke/df99018c-563a-419d-b76b-63ea87d92410?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="SAMSUNG 32-Inch Class QLED LS03B Series The Frame Quantum HDR Smart TV with Alexa Built-in"/>
+<img src="https://images.msha.ke/e54e51a6-8e34-403f-8676-9e1999428b65?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Crockpot Electric Lunch Box, Portable Food Warmer for On-the-Go"/>
+<img src="https://images.msha.ke/ea03f8bc-7264-4c27-b627-1a0acc242301?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Magic Bullet Blender"/>
+<img src="https://images.msha.ke/f6a5d1de-cef0-4557-92c0-409d8955440e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Shiatsu Massager Back and Neck Massage Pillow with Heat, Deep Tissue Kneading Massages for Lower and Upper Back"/>
+<img src="https://images.msha.ke/f8a2ac67-60a0-413c-ace9-2ac989e93994?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Nostalgia Indoor Electric Stainless Steel S&#x27;mores Maker"/>
+<img src="https://images.msha.ke/f9ffb8fa-6062-4c80-a8b4-d0016dba7a34?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Marble Makeup Bag Large Cosmetic Bag"/>
+<img src="https://images.msha.ke/c0211b24-904f-4ba5-bc71-996f2c1a6c89?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responsive-flamingo" width="1280" alt="Stone Bath Mat , Diatomaceous Earth Shower Mat Nonslip Super Absorbent Quick Drying Bathroom Floor"/>
+<img src="https://images.msha.ke/01457149-15b8-4767-a054-5329520da8be?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/02d2892b-31ac-40a3-b546-16008e5e874f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/059ba5cf-f1d4-4ec8-9047-6d4a4e780b35?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/062dd71c-ea8f-48d0-8a65-be008f810ce9?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/064d143c-4a0b-4f27-8e32-497cd9e6b7c2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/07970faa-e6c3-4fce-807c-199e9b267641?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/0bfa811e-b5ba-4241-a92b-f946797ce9ad?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/0c7c3b83-9041-409f-846c-1312998363f3?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/0cbc085b-d094-4072-8e80-7fe95b387dcd?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/0e323531-312d-450e-8934-a451f2675c18?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/0e73a369-fe14-4440-a096-0eddc0c317e8?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/101966c6-66d9-40ef-ad42-3e1cd39ba5d1?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/1476cb33-7959-41bc-8098-7490a68acd1a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/1504df2b-2d09-4b65-9002-0fed6310b3c0?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/17e91243-7af7-4fa9-8e4e-f4f1e0a77fae?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/18a14b16-bc1e-47d2-8029-040380ee0834?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/191bc8a1-2431-470d-a50f-719847288eb2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/19a73dd1-ecc5-4f57-b29a-dd165818813f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/19f1037f-94a8-4624-a784-9b4d2c5547ca?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/1b629406-4296-4cd3-a8cb-211776ecb1bc?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/1d25abed-f193-42d0-ab5f-bf85353e96c7?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/1f20e5a5-c921-4380-a2a7-8c787153bae1?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/213dbbc8-8cef-4ae3-80bc-10217b2347e2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/217db3ee-bedc-40a5-917a-e8ea979e1016?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/218fc9cb-de9a-45c4-8783-3900d4906651?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/21a5ee2c-8661-4fb4-b0f3-a52b6a22b8c2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/21afd06f-33c8-416c-ae6e-df19af3523bc?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/21d2a115-0419-445e-b046-1ab54cd1136e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/227481fe-93ed-4df1-b93d-d0627294ab15?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/230c4a8c-9ada-4959-bc0f-0888f89fed38?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/23e0de30-7e3f-478d-86f7-ad9fb5e9bdb0?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/24089aa2-b275-43bf-99f1-506d434cc174?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/27104f0a-1dc0-4a8a-828f-92b0c73e2e91?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/27cc2e04-eb2c-432c-bb32-d4ee92006a32?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/27cd60e5-b95e-41f0-bea7-8e524995eb1e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2837cb65-8a32-4136-a860-ee37688a630e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2a025b72-dda6-40a5-95ad-c9c4f7e3f1fe?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2a2f6521-a1f4-46be-8c9b-44558eff2b7f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2ae58ed3-9504-4539-a8f5-6703d5078f8e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2b72c0f3-7073-4d88-9f8d-845426ad7c98?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2c052767-129a-4d7f-9eba-f7fc8703b10d?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2d5b670d-ddc6-4479-88a0-c5b7ca046da3?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2e33a184-9df6-44c2-b23e-5897c49653fd?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2e78b69b-1a38-40b5-bafa-ac70856fcada?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2f14aea9-6350-43f7-99f5-7a189afdcf00?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2f150712-3183-49f7-9b89-6ca4008dbcd7?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2f88af6d-c8ac-4dbe-9dd6-42e5dad94e97?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/2f9aba0b-4da4-4c03-91ca-788fd94a1fcb?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/327d8c3d-0fec-474b-85ef-73b3c106034f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/32c31f3b-ca3f-44a6-9bb1-8b6f61e00125?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/3308e3ca-2e0b-4d4e-9722-a104689bc532?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/35037660-4770-42d6-97f0-6aa9de9342cb?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/35468097-1027-4e7c-9690-a4b13d181459?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/36321ba5-5abd-477c-8305-a2bc748084e1?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/38369277-f48b-48cf-a609-41f1871ec0ff?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/3949cb22-fb38-4d5f-b195-8d44b3d2a628?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/3a1b59a0-af33-4577-9718-44843e028255?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/3c34cd51-27c4-4113-a9fc-6325151b720a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/3d7cd245-2620-4edd-8429-7907fcdd1376?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/40677a9f-db99-447b-844c-9827e9a77c00?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/40e455ab-1675-40ad-a710-7a7ea88a8e0f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/41410bf9-76ed-4ed8-983b-cd7921a67940?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/43d68f56-3749-4a4c-a329-8e2d909bd61b?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/4416dcf6-cddc-45cf-aace-e5326db0786c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/44f7a5ff-4a49-474f-b796-dcf9577913a9?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/46c5e9bd-4e54-4a6d-a117-f10fca131e04?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/49d4c283-d014-4ffc-b4cf-aa6705756b21?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/4cd38222-1d3d-4f18-a172-f9f438644837?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/4de5b1c0-29eb-4ce0-b2c8-05777628c24e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/4ee97bd6-a97e-4077-a3b1-809453983f2c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/4f8ff33f-82c3-4400-89ea-d937868c44a9?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/50d5f96b-6cd5-4bb8-bd46-e02036cb3f11?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/50e7381f-6690-4f08-824d-b84b5a549594?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/517be401-5b38-430a-beda-c04c54ce42f4?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/51c07745-4bcd-4d2c-a3da-378a0b9882f6?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/51fe1f6a-718d-4a27-94d1-c775df22e46a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/52ab6c99-f109-4966-8147-b63c8b46cf4a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/536e190c-7cf0-4c0a-a690-a679f82a3921?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/547a8e7b-8fcc-4da2-8495-08284d0f12e0?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/57205ddf-9c1d-4ab6-8ef2-e1e9a8fc99cf?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/57f8230b-490a-4ef5-b4c5-0c19925410b1?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/593f03c1-2432-4e74-b6b4-346eff8d0fce?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/596a14a7-f5b3-4b66-a0e3-0d8fbd207d09?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/59fd15f6-c406-43eb-a3a6-da073fa12be6?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/5e4db1de-2e53-4b57-b963-569cacf663d8?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/5e58330c-fb0d-4688-a32c-d16e800a8efb?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/5f1b268a-a684-410e-ae8c-e548d7ef4595?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/617740c1-49f7-48bb-a26b-33ccc615deb9?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/63640686-fa07-40a8-b493-c6801654681e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/64d1a4e8-9370-48fb-b3f2-efdf8d5a8c69?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/6956d76d-ea7d-4496-b5a5-0074fee24630?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/6b601a32-2723-4b73-81b2-d9fb05f5d8e7?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/6bb8f06a-9573-449a-a041-3983bbef6566?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/6e0995be-8251-4367-a770-60b9e25841c2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/6ed6b5e3-b0c7-4b6c-a831-9fb7fb988b72?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/70fa3075-7799-42ac-a21a-8ed6ebec88f7?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/71607948-00f9-4615-bd06-17b96c7072ce?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/72cf991c-7186-47a8-adf4-f9861217799e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/73d1806a-d310-4d68-b042-1c592892fd51?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/75801fa3-d616-45ff-a405-1363a5d17faf?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/75b5320c-dd2e-416f-87f6-e84b909753a6?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/77dc3e55-7d82-48b1-b04b-e9b5e2a698ec?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/7917b904-24d0-4973-a5fb-25fde3b34058?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/7a5f8fc0-92cc-4e92-bd94-3b32a52571cc?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/7f0f04b5-06ea-4bc5-91a9-78c227bedfe7?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/809d0e47-b488-4689-b2e6-816f45b6afc6?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/81722c9d-b523-46e1-8ae3-c9b9334938f2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/81b9aa46-9fd9-45c4-9ac6-6372357c9f0e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/8287769f-6ca8-46a0-982e-14130e366c48?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/8291ca91-8bb5-42a8-b6f1-4ae52ba0bdde?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/82b06e7f-0ceb-41d6-be33-c128f7700df9?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/838d687d-0976-41b3-9b67-75066681930b?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/86feeb98-c43f-455a-9427-895338b1788e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/87468996-44b2-4508-9ab3-5778cbca0c40?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/8764e34c-6ccd-44a8-8476-b1016b457b7d?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/8bc723f7-6b2c-45b9-b466-4a3bfdc47951?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/8e808e56-afd8-4f8a-8330-4ec245b7b86a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/8ebb7a35-c24e-4513-bbae-3a67b43d1191?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/9119e5fa-b023-4bd1-81e9-cb3b73a24c61?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/91872824-7c78-4272-8eb5-2df50949e837?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/91dc158f-2869-4af9-af96-88bb497c84ae?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/91e0f3fe-0bf6-4198-8421-93b3466b6646?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/92301e7c-3e75-4d20-84c0-8db70f8341d2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/928e71bb-c9cc-4808-a5f9-377f5fb8a383?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/950e5ed7-d424-4ddf-a488-b5063762a92c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/973b29d8-8a5a-4030-96e8-6432f61cdcd7?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/9b375d58-4a45-4468-9e94-d487e6c7583c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/9c87f4f3-5429-428c-9b9f-907b690f43d2?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/9d699a77-860a-4383-a221-f68c4329636a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/a10fe3c9-8b1a-445c-9f93-d8f0d95b345d?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/a12c7a41-b719-43ee-b51e-6ea595b05ec8?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/a3484d80-cc38-41bc-80c2-f77144052164?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/a4af4fc0-4a56-4fe4-90b5-08a84c7e5c5f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/a6900487-0662-4244-88a8-264d792dc70a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/ac595d47-46cf-4d2c-9b89-66356b39fe25?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/ac71d160-3fa9-40e8-9e9e-ff6f8ad5a6ff?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/ac9699e7-cd93-432e-84a0-fb6154caff9a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/ae6050de-67b5-4ab1-8337-c0993f7a7a5c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/b2e071a7-20c2-4d55-8441-07ad7c19d232?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/b3185d3f-46de-4d1e-898f-5e0ba631b86d?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/b3557062-7a49-4247-b1ef-24b19dc2ca66?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/b56d6598-629b-46b5-9e6e-1692b6d55b52?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/b6ba2780-4e01-48b0-99ea-a66ad0c26642?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/b6fa2ae5-b1fa-412e-9301-2f008e36b801?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/b712c638-cab9-4731-96ba-e62478e68e0f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/b9a17691-2008-4dc1-939b-2f0adfd3b266?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/bef4e21f-1a8a-44f5-a2b2-366ac3be5e3a?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/c0fb76c4-4f04-4295-ab5d-48e49c40e730?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/c4dc7469-3d9a-4ce3-bacf-6aded07c04a1?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/c516fdf8-a844-4aa3-8cfd-6acadd546e05?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/c6e02ff2-c352-47f6-9fac-32887cc25414?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/c70fde08-fd65-42e2-88ab-a473dc75f110?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/c81d8018-c1e3-4e89-8512-972f8088c8d7?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/caeec9f5-1659-4258-9545-99e051e639b0?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/cd41d99e-f701-4bdd-ac21-c32c0c4dc892?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/cdf7f43a-2be7-4586-919c-39abae6dfbdb?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/cf9f0550-d16e-431a-9db3-82d719a700c8?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/cfbfd0e2-7fe3-4c85-b09f-bcbaca57a238?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d1440bac-cfbd-4f2b-b392-63298be3c187?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d1ea1f2f-df86-4be9-ae20-05492e3b2448?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d3104fc8-8bf0-4edc-83ee-e7ed8629af18?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d46c94ca-d8a6-4ebe-b5fe-ea02b84bc01b?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d4c1106a-b5c6-4e42-bc12-ebf418334266?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d50fe6ca-4aa3-49ba-8293-72e94143f97e?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d69a2b77-cd84-4694-8ae4-168df6c85baa?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d6dc3d78-8d8a-43d0-a059-5c97e4283a84?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d7480a82-9b9c-4b56-875c-3632e96ef8c6?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/d762d8ac-e7c1-47ef-bf92-b68ab7a7e0cb?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/dc269624-ee0a-4e70-8be3-dfcf6cadbeb6?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/de836cea-0af8-4a0b-b961-8bff580a7a21?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/df072e2a-4b76-4847-b93f-5d9ab2e036c1?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/df9734ef-044b-4581-ae78-f055a3e8e645?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/e11c259b-00ff-470d-a243-f5d2b81cb51c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/e3a1cd77-a71b-447d-a116-b59685b056b5?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/e48b5c8b-1925-4045-abfc-ecb2a5816c40?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/e6db483c-6641-474d-a5d8-179447b8c811?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/e6de7b28-8cd1-4924-a1d3-67751ed7f3a7?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/e9dd3931-ed3b-472d-be32-e5e0ed268a90?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/eafc613e-3950-4798-a7a8-0b85a104d9ea?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/ec288dd6-566f-4503-b723-4440983b57f9?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/ecde54e1-b76d-4cf1-94ec-77205f9f0484?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/f42fb522-ab77-4286-8574-670c7f1fe985?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/f4d5183e-f862-4f4f-a348-bed9d3289fe4?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/f63c1643-75de-44b0-a017-12a57c60a9be?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/f7b16dcd-e7f2-4f9c-9a9d-b63c8e500b99?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/f8d90e0b-31d3-402f-a4e0-59686dbae577?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/f9bc8f5f-98f8-4362-b4ac-d7eabe22e91c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/fd868839-5560-4ff1-94cc-3be699bd95fa?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/fda03cb0-1d8f-45b9-87f6-539782cca246?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/fdfb7017-30fc-4bc1-bfbb-bcd688611950?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/fe51f76a-71a0-498b-a993-2e07564a035f?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/fe7397ff-11d0-4f67-9cbc-edd35bffce16?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://images.msha.ke/c9c21d54-507d-4d88-989f-a04fb7e3691c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" id="responisve-flamingo" width="1280" />
+<img src="https://looks.msha.ke/site-generator/assets/14e380a270c331b2da9ec103e5fd31c6.svg" alt=""/>OH HEY, FOR BEST VIEWING, YOU &#x27;LL NEED TO TURN YOUR PHONE
+-->
+     </body>
+</html>
+
+
+
+<!--
+      <link rel="preconnect" href="https://fonts.msha.ke"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
         <link rel="stylesheet" href="https://looks.msha.ke/site-generator/assets/styles.878a92fa39ab7d78962b.css"/>
         <link rel="stylesheet" href="https://looks.msha.ke/assets/looks.99624e7f94ed2829639c.css"/>
         <link rel="canonical" href="https://msha.ke/onlineemporium/"/>
+      
         <meta property="og:type" content="article"/>
         <meta property="og:site_name " content="Milkshake Website Builder"/>
         <meta property="og:updated_time" content="1683169091153"/>
         <meta property="og:modified_time" content="1683169091153"/>
-        <meta property="profile:username" content="onlineemporium"/>
-        <meta name="twitter:title" property="og:title" content="Top Picks • @onlineemporium • Milkshake Website Builder"/>
-        <meta name="twitter:description" property="og:description" content="By Online Emporium "/>
+        <meta property="profile:username" content="awesomeonlineworld"/>
+        <meta name="twitter:title" property="og:title" content="Top Picks • @awesomeonlineworld• Milkshake Website Builder"/>
+        <meta name="twitter:description" property="og:description" content="By Awesome Online World "/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:image" property="og:image" content="https://images.msha.ke/88f618fa-aca4-4b38-9783-86a2b367f31c?w=1200&amp;ar=2%3A1&amp;crop=faces%2Centropy%2Ccenter&amp;fit=crop&amp;fm=png&amp;auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30"/>
+        
         <link rel="icon" href="https://looks.msha.ke/site-generator/assets/d7ac02eea45e49763771f8e6b8ca3a35.ico"/>
         <script type="text/javascript">
             window.siteUUID = '22f28db4-c0fd-42b2-b45b-e737f20e12fc'
         </script>
-      <!--
         <script type="text/javascript">
             window.paypalMerchantId = 'null';
             window.paypalClientId = 'ARgr-LdaUqoedYHz3_X4TCZ9biKP_MwcHuMgHIS3Fx-s7CbLe0yjWrkdynOeT-nFy8xxOOL_gSUuGIzj'
@@ -69,8 +308,8 @@
         <script type="text/javascript">
             window.hasMWMCard = false
         </script>
-        -->
-        <script type="text/javascript">
+
+       <script type="text/javascript">
             (function(id) {
                 window.dataLayer = window.dataLayer || [];
 
@@ -99,6 +338,7 @@
             )('G-BLG6G8NZG9')
         </script>
         <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-BLG6G8NZG9"></script>
+      
     </head>
     <body class="" style="--milkshake__background:url(&quot;https://looks.msha.ke/assets/look24-bg-57ab3bd243be4669894159ee68b42a35.svg&quot;) center center;--milkshake__background-top:24px">
         <div class="milkshake-nav-bar">
@@ -160,7 +400,7 @@
                                                     <a class="look24__link" rel="ugc" href="https://amzn.to/3Iykc7E">
                                                         <span class="look24__link-text look24__link-text--recommendations">Buy Link - Click Here </span>
                                                         <div class="look24__link-arrow">
-                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M0.574707 12.325L11.3025 1.59718" stroke-width="1.25"></path>
                                                                 <path d="M3.91211 1.19983L11.7772 1.27734L11.6997 8.98739" stroke-width="1.25"></path>
                                                             </svg>
@@ -183,7 +423,7 @@
                                                     <a class="look24__link" rel="ugc" href="https://amzn.to/3Zdhkn1">
                                                         <span class="look24__link-text look24__link-text--recommendations">Buy Link - Click Here </span>
                                                         <div class="look24__link-arrow">
-                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M0.574707 12.325L11.3025 1.59718" stroke-width="1.25"></path>
                                                                 <path d="M3.91211 1.19983L11.7772 1.27734L11.6997 8.98739" stroke-width="1.25"></path>
                                                             </svg>
@@ -193,7 +433,7 @@
                                             </article>
                                         </li>
                                         <li>
-                                            <article>
+                                          <article>
                                                 <a href="https://amzn.to/3Z6RrWG" rel="ugc">
                                                     <div class="look24__recommendationItem--image-container">
                                                         <img loading="lazy" class="look24__recommendationItem--image" src="https://images.msha.ke/b5e1f411-7840-4c24-aad3-298265044e0c?auto=format%2Ccompress&amp;cs=tinysrgb&amp;q=30&amp;w=828" alt="Rhife Pill Hive - Weekly Pill Organizer"/>
@@ -3171,6 +3411,7 @@
                 </a>
             </div>
         </div>
+
     </body>
     <div class="milkshake__landscape-detection">
         <div class="milkshake__landscape-detection-content">
@@ -3209,3 +3450,4 @@
         <img height="1" width="1" src="https://www.facebook.com/tr?id=1219075808660268&amp;ev=PageView&amp;noscript=1"/>
     </noscript>
 </html>
+-->
